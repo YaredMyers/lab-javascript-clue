@@ -55,7 +55,6 @@ image:        https://metrouk2.files.wordpress.com/2016/07/colonel-mustard.jpg
 occupation:   Retired Football player
 
 // Weapons
-
 name: rope        ---   weight: 10
 name: knife       ---   weight: 8
 name: candlestick ---   weight: 2
@@ -94,7 +93,6 @@ const charactersArray = [{
     image: "https://pbs.twimg.com/profile_images/506787499331428352/65jTv2uC.jpeg",
     occupation: "Entrepreneur"
   },
-
   {
     first_name: "Doctor",
     last_name: "Orchid",
@@ -104,8 +102,6 @@ const charactersArray = [{
     image: "http://www.radiotimes.com/uploads/images/Original/111967.jpg",
     ocupation: "Scientist"
   },
-
-
   {
     first_name: "Victor",
     last_name: "Plum",
@@ -115,7 +111,6 @@ const charactersArray = [{
     image: "https://metrouk2.files.wordpress.com/2016/07/professor-plum.jpg",
     occupation: "Designer"
   },
-
   {
     first_name: "Kasandra",
     last_name: "Scarlet",
@@ -125,7 +120,6 @@ const charactersArray = [{
     image: "https://metrouk2.files.wordpress.com/2016/07/miss-scarlett.jpg",
     occupation: "Actor"
   },
-
   {
     first_name: "Eleanor",
     last_name: "Peacock",
@@ -135,7 +129,6 @@ const charactersArray = [{
     image: "https://metrouk2.files.wordpress.com/2016/07/mrs-peacock.jpg",
     occupation: "Socialité"
   },
-
   {
     first_name: "Jack",
     last_name: "Mustard",
@@ -260,4 +253,4 @@ const revealMistery = (misteryEnvelope) => {
   return misteryEnvelope[0].first_name + " " + misteryEnvelope[0].last_name + " killed Mr.Boddy using the " + misteryEnvelope[1].name + " in the " + misteryEnvelope[2].name + "!!!!";
 }
 
-console.log(revealMistery(message));
+revealMistery(message);
